@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    padding: 0.9rem 0 1.25rem;
+    background: #fff;
+}
+
+.user_info .location_wrap {
+    margin-bottom: 2.5rem;
+}
+
+.user_info .location_wrap img {
+    width: 0.5rem;
+    padding-right: 2px;
+    vertical-align: middle;
+}
+
+.user_info .location_wrap span {
+    font-size: 0.5rem;
+    text-decoration: underline;
+}
+
+.user_info .userName {
+    margin-bottom: 0.5rem;
+    color: #5b5b5b;
+    font-family: 'S-CoreDream-6Bold';
+    font-size: 1.1rem;
+}
+
+.user_info .greeting {
+    margin-bottom: 1rem;
+    color: #d71a1a;
+    font-size: 0.75rem;
+}
+
+
+.middle_wrap{
+    background: #faf8f8;
+    flex: 1;
+}
+
+.middle_wrap .button_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2.4rem;
+    margin-top: 2.75rem;
+    margin-bottom: 4rem;
+}
+
+.middle_wrap > img {
+    width: 4.6rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    text-align: left;
+    background: #fff;
+    border-top: 1.5px solid #d71a1a;
+}
+
+.footer span {
+    color: #808080;
+    font-size: 0.45rem;
+    font-family: 'NotoSansKR-Regular';
+}
+
+.menu_area{
+    display: flex;
+}

@@ -1,0 +1,32 @@
+.menuRectangle {
+    flex-grow: 1;
+}
+
+.menuRectangle a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 3.7rem;
+    background: #1c1c1c;
+}
+
+.menuRectangle img {
+    width: 1.5rem;
+    height: 1.25rem;
+    object-fit: contain;
+    padding-bottom: 0.5rem;
+}
+
+.menuRectangle span {
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.menuRectangle.on a {
+    background: #000;
+}
+
+.menuRectangle.on span {
+    color: #d71a1a;
+}

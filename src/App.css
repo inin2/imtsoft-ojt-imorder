@@ -1,0 +1,38 @@
+@font-face {
+	font-family: "NotoSansKR-Regular";
+	src: url("./assets/fonts/NotoSansKR-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "NotoSansKR-Medium";
+	src: url("./assets/fonts/NotoSansKR-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "NotoSansKR-Bold";
+	src: url("./assets/fonts/NotoSansKR-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "S-CoreDream-3Light";
+	src: url("./assets/fonts/SCDream3.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "S-CoreDream-3Light";
+	src: url("./assets/fonts/SCDream3.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "S-CoreDream-4Regular";
+	src: url("./assets/fonts/SCDream4.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "S-CoreDream-6Bold";
+	src: url("./assets/fonts/SCDream6.ttf") format("truetype");
+}
+
+body {
+  background: #e9ecef;
+}
