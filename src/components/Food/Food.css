@@ -16,14 +16,14 @@
     object-fit: contain;
 }
 
-.middle_wrap {
+.food .middle_wrap {
     display: flex;
     flex-direction: column;
     text-align: left;
     background: #fff;
 }
 
-.middle_wrap span {
+.food .middle_wrap span {
     margin-bottom: 0.2rem;
 }
 

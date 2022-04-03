@@ -1,9 +1,10 @@
 import React from "react";
+import './Main.css'
 import { Link } from 'react-router-dom';
 
 function Main() {
     return (
-        <div>
+        <div className="main">
             <ul>
                 <li><Link to="/login">login</Link></li>
                 <li><Link to="/menu">menu</Link></li>

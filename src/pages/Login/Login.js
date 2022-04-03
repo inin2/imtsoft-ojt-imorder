@@ -3,7 +3,7 @@ import './Login.css'
 
 function Login()  {
     return (
-        <div className="container">
+        <div id="login">
             <img src={require("../../assets/BI_500px.png")} className="logo"/>
             <div className="login_wrap">
                 <form>
