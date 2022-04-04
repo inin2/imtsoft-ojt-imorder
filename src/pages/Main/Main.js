@@ -7,7 +7,7 @@ function Main() {
         <div className="main">
             <ul>
                 <li><Link to="/login">login</Link></li>
-                <li><Link to="/menu">menu</Link></li>
+                <li><Link to="/menu">mypage</Link></li>
                 <li><Link to="/order">order</Link></li>
                 <li><Link to="/counter">counter</Link></li>
             </ul>
